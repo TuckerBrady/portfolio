@@ -118,6 +118,10 @@
       align-items: center;
   
       transition: all 0.3s ease-in-out;
+
+      a {
+        padding-top: 5px;
+      }
   
       svg {
         width: 15px;
@@ -131,6 +135,10 @@
   
         svg {
           color: var(--white-color);
+          width: 20px;
+          height: 20px;
+
+          transition: all 0.3s ease-in-out;
         }
       }
   

@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 
 import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
+import { SocialMedia } from '../../components';
 import './Header.scss';
 
 const scaleVariants = {
