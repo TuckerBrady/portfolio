@@ -72,6 +72,11 @@ const Footer = () => {
       : <div>
           <h3 className="head-text">Thank you for getting in touch</h3>
       </div>}
+
+      <div className="copyright">
+          <p className="p-text">© 2022 <span>Tucker Brady</span></p>
+          <p className="p-text">All Rights Reserved</p>
+      </div>
     </>
   )
 }
