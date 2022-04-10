@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 
 import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
-import { SocialMedia } from '../../components';
 import './Header.scss';
 
 const scaleVariants = {
@@ -29,14 +28,16 @@ const Header = () => {
           <div className="badge-cmp app__flex">
             <span>👋</span>
             <div style={{ marginLeft: 20 }}>
-              <p className="p-text">Hello, I'm</p>
+              <p className="p-text">Hello there, I'm</p>
               <h1 className="head-text">Tucker</h1>
             </div>
           </div>
 
           <div className="tag-cmp app__flex">
             <p className="p-text">Software Engieer</p>
+            <p className="p-text">Veteran</p>
             <p className="p-text">Freelancer</p>
+            <p className="p-text">Dad</p>
           </div>
         </div>
       </motion.div>
@@ -61,7 +62,7 @@ const Header = () => {
         whileInView={scaleVariants.whileInView}
         className="app__header-circles"
       >
-        {[images.flutter, images.react, images.sass].map((circle, index) => (
+        {[images.javascript, images.react, images.node].map((circle, index) => (
           <div className="circle-cpm app__flex" key={`circle${index}`}>
             <img src={circle} alt="circle" />
           </div>
