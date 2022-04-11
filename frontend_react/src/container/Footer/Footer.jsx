@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { images } from '../../constants';
 import resume from '../../constants/pdf';
 import { AppWrap, MotionWrap } from '../../wrapper';
+import { SocialMedia } from '../../components';
 import { client } from '../../client';
 import './Footer.scss';
 
@@ -78,10 +79,9 @@ const Footer = () => {
       : <div>
           <h3 className="head-text">Thank you for getting in touch</h3>
       </div>}
-
       <div className="copyright">
-          <p className="p-text">© 2022 <span>Tucker Brady</span></p>
-          <p className="p-text">All Rights Reserved</p>
+        <SocialMedia />
+        <p className="p-text">© 2022 <span>Tucker Brady</span></p>
       </div>
     </>
   )

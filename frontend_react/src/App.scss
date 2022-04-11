@@ -36,21 +36,6 @@
     }
   }
   
-  .copyright {
-    width: 100%;
-    padding: 2rem 0 0;
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-  
-    p {
-      text-transform: uppercase;
-      color: var(--black-color);
-    }
-  }
-  
   .head-text {
     font-size: 2.75rem;
     font-weight: 800;
@@ -100,8 +85,8 @@
   .app__social {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
+    align-items: end;
+    flex-direction: row;
   
     padding: 1rem;
   
@@ -110,7 +95,7 @@
       height: 40px;
       border-radius: 50%;
       background-color: var(--white-color);
-      margin: 0.25rem 0;
+      margin: 0.25rem 0.5rem;
       border: 1px solid var(--lightGray-color);
   
       display: flex;
@@ -120,7 +105,9 @@
       transition: all 0.3s ease-in-out;
 
       a {
-        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
   
       svg {
