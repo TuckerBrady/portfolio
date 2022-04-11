@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import { images } from '../../constants';
+import resume from '../../constants/pdf';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
 import './Footer.scss';
@@ -67,7 +68,12 @@ const Footer = () => {
             onChange={handleChangeInput}
           />
         </div>
-        <button type="button" className="p-text" onClick={handleSubmit}>{loading ? 'Sending' : 'Send Message'}</button>
+        <div id="app__footer-form-btns">
+          <button type="button" className="p-text" onClick={handleSubmit}>{loading ? 'Sending' : 'Send Message'}</button>
+          <a href={resume} className='p-text' download="Tucker Brady's Resume.pdf">
+            <button type="button" className="p-text">Download Resume</button>
+          </a>
+        </div>
       </div>
       : <div>
           <h3 className="head-text">Thank you for getting in touch</h3>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8457100a.css",
-    "main.js": "/static/js/main.4d640e51.js",
+    "main.css": "/static/css/main.892ccab3.css",
+    "main.js": "/static/js/main.ed6bf903.js",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/about01.png": "/static/media/about01.080509de05322b7aafda.png",
@@ -13,6 +13,7 @@
     "static/media/nb.png": "/static/media/nb.98f3253e32cc67a4cb5e.png",
     "static/media/asus.png": "/static/media/asus.514bc34955008a92e09f.png",
     "static/media/adidas.png": "/static/media/adidas.83df8153294f9137d308.png",
+    "static/media/resume.pdf": "/static/media/resume.36cad78f06fb88bbc670.pdf",
     "static/media/bolt.png": "/static/media/bolt.64e7d9d30ece478ef3a0.png",
     "static/media/redux.png": "/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/sass.png": "/static/media/sass.36e863bfbcb25c109d00.png",
@@ -29,11 +30,11 @@
     "static/media/skype.png": "/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.8457100a.css.map": "/static/css/main.8457100a.css.map",
-    "main.4d640e51.js.map": "/static/js/main.4d640e51.js.map"
+    "main.892ccab3.css.map": "/static/css/main.892ccab3.css.map",
+    "main.ed6bf903.js.map": "/static/js/main.ed6bf903.js.map"
   },
   "entrypoints": [
-    "static/css/main.8457100a.css",
-    "static/js/main.4d640e51.js"
+    "static/css/main.892ccab3.css",
+    "static/js/main.ed6bf903.js"
   ]
 }

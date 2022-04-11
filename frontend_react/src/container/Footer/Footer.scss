@@ -113,4 +113,12 @@
         width: 100%;
         margin: 1rem 0;
     }
+
+    #app__footer-form-btns {
+        background-color: var(--white-color);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
