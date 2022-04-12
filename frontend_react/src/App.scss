@@ -85,59 +85,79 @@
   .app__social {
     display: flex;
     justify-content: flex-end;
-    align-items: end;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
+    border: var(--white-color);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   
     padding: 1rem;
-  
-    div {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background-color: var(--white-color);
-      margin: 0.25rem 0.5rem;
-      border: 1px solid var(--lightGray-color);
-  
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  
-      transition: all 0.3s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 0 15px rgba(49, 59, 172, 0.25);
 
       a {
+        div {
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+
+    p {
+      font-size: large;
+      
+      span {
+        color: var(--secondary-color);
+      }
+    }
+
+    .app__social-icon-container {
+      display: flex;
+      flex-direction: row;
+
+      div {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: var(--white-color);
+        margin: 0.25rem 0.5rem;
+        border: 1px solid var(--lightGray-color);
+    
         display: flex;
         justify-content: center;
         align-items: center;
-      }
-  
-      svg {
-        width: 15px;
-        height: 15px;
-        color: var(--gray-color);
-      }
-  
-      &:hover {
-        background-color: var(--secondary-color);
-        border-color: var(--secondary-color);
-  
+    
+        transition: all 0.3s ease-in-out;
+    
         svg {
-          color: var(--white-color);
-          width: 20px;
-          height: 20px;
-
-          transition: all 0.3s ease-in-out;
+          width: 15px;
+          height: 15px;
+          color: var(--gray-color);
         }
-      }
+    
+        &:hover {
+          background-color: var(--secondary-color);
+          border-color: var(--secondary-color);
+    
+          svg {
+            color: var(--white-color);
+            width: 20px;
+            height: 20px;
   
-      @media screen and (min-width: 2000px) {
-        width: 70px;
-        height: 70px;
-  
-        margin: 0.5rem 0;
-  
-        svg {
-          width: 30px;
-          height: 30px;
+            transition: all 0.3s ease-in-out;
+          }
+        }
+    
+        @media screen and (min-width: 2000px) {
+          width: 70px;
+          height: 70px;
+    
+          margin: 0.5rem 0;
+    
+          svg {
+            width: 30px;
+            height: 30px;
+          }
         }
       }
     }
