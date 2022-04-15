@@ -1,84 +1,27 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import { images } from '../../constants';
-import resume from '../../constants/pdf';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { SocialMedia } from '../../components';
-import { client } from '../../client';
+import ContactForm from '../../components/ContactForm';
 import './Footer.scss';
 
 const Footer = () => {
-  const [formData, setFormData] = useState({name: '', email: '', message: '' });
-  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
-
-  const { name, email, message } = formData;
-
-  const handleChangeInput = (e) => {
-    const { name, value} = e.target;
-
-    setFormData({ ...formData, [name]: value });
-  }
-
-  const handleSubmit = () => {
-    setLoading(true);
-
-    const contact = {
-      _type: 'contact',
-      name: name,
-      email: email,
-      message: message,
-    }
-
-    client.create(contact)
-      .then(() => {
-        setLoading(false);
-        setIsFormSubmitted(true);
-      })
-  }
-
   return (
     <>
-      <h2 className="head-text">Take a break & chat with me</h2>
+      <h2 className="head-text">Reach Out <span>&</span> Let's Talk</h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card">
           <img src={images.email} alt="email" />
-          <a href="mailto:contact@tuckerbrady.com" className="p-text">contact@tuckerbrady.com</a>
+          <a href="mailto:contact@tuckerbrady.com" className="p-text">tuck.al.brady@gmail.com</a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="mobile" />
           <a href="tel:+1 (123) 456-7890" className="p-text">+1 (123) 456-7890</a>
         </div>
       </div>
-
-      {!isFormSubmitted ?
-      <div className="app__footer-form app__flex">
-        <div className="app__flex">
-          <input className="p-text" type="text" placeholder="Your Name" name="name" value={name} onChange={handleChangeInput} />
-        </div>
-        <div className="app__flex">
-          <input className="p-text" type="email" placeholder="Your Email" name="email" value={email} onChange={handleChangeInput} />
-        </div>
-        <div>
-          <textarea 
-            className="p-text"
-            placeholder="Your Mesage"
-            value={message}
-            name="message"
-            onChange={handleChangeInput}
-          />
-        </div>
-        <div id="app__footer-form-btns">
-          <button type="button" className="p-text" onClick={handleSubmit}>{loading ? 'Sending' : 'Send Message'}</button>
-          <a href={resume} className='p-text' download="Tucker Brady's Resume.pdf">
-            <button type="button" className="p-text">Download Resume</button>
-          </a>
-        </div>
-      </div>
-      : <div>
-          <h3 className="head-text">Thank you for getting in touch</h3>
-      </div>}
+      <ContactForm />
       <div className="copyright">
         <SocialMedia />
         <p className="p-text">© 2022 <span>Tucker Brady</span></p>
