@@ -57,6 +57,7 @@
     flex-direction: column;
 
     .badge-cmp, .tag-cmp {
+        background-color: var(--white-color);
         padding: 1rem 2rem;
         border: var(--white-color);
         border-radius: 15px;
