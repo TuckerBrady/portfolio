@@ -61,7 +61,11 @@
 }
 
 .app__footer-form-container {
-    width: 100%;
+    margin-top: 1rem;
+    width: 75%;
+    background: var(--white-color);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 
     .app__footer-form {
         width: 60%;
@@ -74,7 +78,7 @@
             margin: 0.75rem 0;
             border-radius: 10px;
             cursor: pointer;
-            background-color: var(--primary-color);
+            background-color: var(--white-color);
     
             transition: all 0.3s ease-in-out;
         }
@@ -82,9 +86,8 @@
         input, textarea {
             width: 100%;
             padding: 0.95rem;
-            border: none;
             border-radius: 7px;
-            background-color: var(--primary-color);
+            background-color: var(--white-color);
 
             font-family: var(--font-base);
             color: var(--black-color);
@@ -92,9 +95,16 @@
             outline: none;
         }
 
+        input {
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-bottom: 1px solid var(--gray-color);
+            border-radius: 0;
+        }
+
         textarea {
             height: 170px;
-            box-shadow: 0 0 25px var(--primary-color);
             resize: none;
         }
     
@@ -129,7 +139,7 @@
 
 .copyright {
     width: 100%;
-    padding: 4rem 0 0;
+    padding: 3rem 0 0;
 
     display: flex;
     flex-direction: row;
@@ -139,5 +149,9 @@
     p {
       text-transform: uppercase;
       color: var(--black-color);
+
+        span {
+            color: var(--secondary-color);
+        }
     }
   }
