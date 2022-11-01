@@ -1,3 +1,3 @@
-import resume from '../assets/resume.pdf';
+import resume from '../assets/Resume.pdf';
 
 export default resume;
