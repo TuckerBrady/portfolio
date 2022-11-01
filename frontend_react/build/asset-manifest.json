@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.b794edcf.css",
-    "main.js": "/static/js/main.b6f7e39f.js",
+    "main.css": "/static/css/main.e828f50b.css",
+    "main.js": "/static/js/main.eefcac6c.js",
+    "static/media/profile.jpg": "/static/media/profile.ddeac9ca4b9de7afa8fb.jpg",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
     "static/media/about01.png": "/static/media/about01.080509de05322b7aafda.png",
     "static/media/bgIMG.png": "/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/bgWhite.png": "/static/media/bgWhite.79658cadae50b3b16ee5.png",
-    "static/media/profile.png": "/static/media/profile.0dde8cd310a01e6f2ecd.png",
     "static/media/about03.png": "/static/media/about03.c26c2547bb1a423cf283.png",
     "static/media/spotify.png": "/static/media/spotify.2b5e9be1eb1ab501e7cd.png",
     "static/media/nb.png": "/static/media/nb.98f3253e32cc67a4cb5e.png",
     "static/media/asus.png": "/static/media/asus.514bc34955008a92e09f.png",
     "static/media/adidas.png": "/static/media/adidas.83df8153294f9137d308.png",
-    "static/media/resume.pdf": "/static/media/resume.36cad78f06fb88bbc670.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.4fe35274cea181946287.pdf",
     "static/media/bolt.png": "/static/media/bolt.64e7d9d30ece478ef3a0.png",
     "static/media/redux.png": "/static/media/redux.c9be37e0fece29c624b0.png",
     "static/media/sass.png": "/static/media/sass.36e863bfbcb25c109d00.png",
@@ -29,12 +29,12 @@
     "static/media/git.png": "/static/media/git.a54d3fa44e02f2f61e69.png",
     "static/media/skype.png": "/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/index.html",
-    "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.b794edcf.css.map": "/static/css/main.b794edcf.css.map",
-    "main.b6f7e39f.js.map": "/static/js/main.b6f7e39f.js.map"
+    "static/media/circle.svg": "/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
+    "main.e828f50b.css.map": "/static/css/main.e828f50b.css.map",
+    "main.eefcac6c.js.map": "/static/js/main.eefcac6c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b794edcf.css",
-    "static/js/main.b6f7e39f.js"
+    "static/css/main.e828f50b.css",
+    "static/js/main.eefcac6c.js"
   ]
 }
