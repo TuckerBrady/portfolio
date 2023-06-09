@@ -14,5 +14,10 @@ export default{
             type:'array',
             of:[{ type:'workExperience'}]
         },
+        {
+            name:'order',
+            title: 'Order',
+            type:'string'
+        },
     ]
 }
