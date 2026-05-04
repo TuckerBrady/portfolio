@@ -3,9 +3,9 @@ import { ArrowUpRight } from "lucide-react";
 import { Section } from "./section";
 
 const facts = [
-  { k: "Years building software", v: "10+" },
-  { k: "Shipped products", v: "20+" },
   { k: "Founded", v: "clckd media" },
+  { k: "Platform", v: "GoHighLevel" },
+  { k: "AI partner", v: "Claude" },
   { k: "Background", v: "U.S. Veteran" },
 ];
 
@@ -15,20 +15,21 @@ export function AboutTeaser() {
       <div className="grid gap-12 md:grid-cols-12">
         <div className="md:col-span-7">
           <h2 className="font-display text-display-lg text-ink">
-            Engineer. Operator. Dad. Veteran. In that order, depending on the
-            day.
+            Operator. Builder. Dad. Veteran. Powered by a serious caffeine
+            habit and a Claude subscription.
           </h2>
           <div className="mt-6 space-y-4 text-lg text-ink-muted">
             <p>
-              I&rsquo;ve spent the last decade in product and engineering
-              roles — shipping software, leading teams, and learning the hard
-              lessons of building things real people pay for.
+              I&rsquo;m Tucker. I run <span className="text-ink">clckd media</span> —
+              a one-person studio that builds the systems small businesses
+              need to actually run: CRMs, funnels, automations, and now
+              AI-powered tools that take the busywork off your plate.
             </p>
             <p>
-              Today I run <span className="text-ink">clckd media</span>, a
-              boutique studio for founders and product teams who want a
-              senior partner end-to-end — strategy, design sense, and code
-              that doesn&rsquo;t need to be rewritten in a year.
+              The stack is GoHighLevel for the operational backbone and
+              Claude for the intelligence layer on top. The result: tools
+              built in weeks, not quarters, by someone who&rsquo;ll still pick
+              up the phone six months later.
             </p>
           </div>
 
@@ -36,7 +37,7 @@ export function AboutTeaser() {
             href="/about"
             className="mt-8 inline-flex items-center gap-2 text-sm text-ink-muted transition hover:text-ink"
           >
-            Read the full story <ArrowUpRight size={14} />
+            More about how I work <ArrowUpRight size={14} />
           </Link>
         </div>
 

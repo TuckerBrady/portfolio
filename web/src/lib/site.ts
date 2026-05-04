@@ -1,11 +1,12 @@
 export const site = {
   name: "Tucker Brady",
   shortName: "Tucker",
-  role: "Engineer & Founder",
+  role: "Founder, clckd media",
   company: {
     name: "clckd media",
     url: "https://clckdmedia.com",
-    tagline: "Software, strategy, and shipped product.",
+    tagline:
+      "Custom business tools built on GoHighLevel and powered by Claude AI.",
   },
   location: "United States",
   email: "hello@clckdmedia.com",
@@ -17,8 +18,8 @@ export const site = {
   },
   nav: [
     { label: "Work", href: "/work" },
-    { label: "About", href: "/about" },
     { label: "Services", href: "/#services" },
+    { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" },
   ],
 } as const;

@@ -31,9 +31,8 @@ export function Hero() {
           transition={{ duration: 0.7, ease: "easeOut", delay: 0.05 }}
           className="mt-6 max-w-5xl font-display text-display-2xl"
         >
-          I build{" "}
-          <span className="gradient-text">considered software</span>{" "}
-          for teams that care how it ships.
+          Custom business tools,{" "}
+          <span className="gradient-text">built fast, built right.</span>
         </motion.h1>
 
         <motion.p
@@ -42,15 +41,15 @@ export function Hero() {
           transition={{ duration: 0.7, ease: "easeOut", delay: 0.15 }}
           className="mt-8 max-w-2xl text-lg text-ink-muted md:text-xl"
         >
-          I&rsquo;m {site.shortName} — engineer, product owner, and founder of {" "}
+          I&rsquo;m {site.shortName} — founder of {" "}
           <a
             href={site.company.url}
             className="text-ink underline decoration-line decoration-dotted underline-offset-4 hover:decoration-ink"
           >
             {site.company.name}
           </a>
-          . I partner with founders and product teams to design, build, and
-          ship software that earns its keep.
+          . I help businesses turn manual work into running systems —
+          combining the GoHighLevel platform with AI agents powered by Claude.
         </motion.p>
 
         <motion.div
@@ -79,11 +78,11 @@ export function Hero() {
           transition={{ duration: 1, delay: 0.5 }}
           className="mt-20 flex flex-wrap items-center gap-x-10 gap-y-3 text-xs uppercase tracking-widest text-ink-subtle"
         >
-          <span>Product strategy</span>
+          <span>GoHighLevel</span>
           <span className="h-1 w-1 rounded-full bg-line-strong" />
-          <span>Full-stack engineering</span>
+          <span>Claude AI</span>
           <span className="h-1 w-1 rounded-full bg-line-strong" />
-          <span>Web · Mobile · AI</span>
+          <span>Automation</span>
           <span className="h-1 w-1 rounded-full bg-line-strong" />
           <span>Veteran-owned</span>
         </motion.div>

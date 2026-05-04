@@ -11,11 +11,11 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-5">
             <p className="font-display text-3xl text-ink">
-              Have an idea worth building?
+              Got a tool worth building?
             </p>
             <p className="mt-3 max-w-md text-ink-muted">
-              {site.company.tagline} I take on a small number of engagements
-              each quarter through {site.company.name}.
+              {site.company.tagline} Tell me about your business and
+              I&rsquo;ll tell you what we can ship.
             </p>
             <Link
               href="/contact"

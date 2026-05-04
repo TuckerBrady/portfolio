@@ -4,30 +4,27 @@ import { Section } from "./section";
 
 const featured = [
   {
-    title: "Placeholder Project One",
-    role: "Product & Engineering",
+    title: "Placeholder — GHL CRM rollout",
+    role: "GoHighLevel build",
     year: "2025",
     blurb:
-      "A short, outcome-focused sentence about the project. Replace with real copy from the case study.",
-    tags: ["Next.js", "Postgres", "AI"],
+      "Replace with a real engagement: who the client was, what you built in GHL, and the outcome (leads captured, hours saved, etc.).",
     href: "/work",
   },
   {
-    title: "Placeholder Project Two",
-    role: "Lead Engineer",
-    year: "2024",
+    title: "Placeholder — Claude support agent",
+    role: "AI build",
+    year: "2025",
     blurb:
-      "Another outcome-focused sentence. Tie it to a metric or a meaningful result if you can.",
-    tags: ["React Native", "Stripe"],
+      "Swap in a real AI build: the workflow you replaced, the model setup, and the measurable lift.",
     href: "/work",
   },
   {
-    title: "Placeholder Project Three",
-    role: "Founder",
+    title: "Placeholder — Funnel + automation suite",
+    role: "GHL + integrations",
     year: "2024",
     blurb:
-      "What problem you solved, for whom, and what the result was. Keep it human.",
-    tags: ["TypeScript", "Sanity"],
+      "An end-to-end example: marketing funnel, GHL automations, and a Claude assistant tying it together.",
     href: "/work",
   },
 ];

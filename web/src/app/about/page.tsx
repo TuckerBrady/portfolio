@@ -12,15 +12,19 @@ export default function AboutPage() {
       title="A short story, more to come."
       description="Stage 3 of the rebuild will add the full about page — background, values, and how I work."
     >
-      <div className="prose prose-invert max-w-prose text-ink-muted">
+      <div className="max-w-prose space-y-4 text-lg text-ink-muted">
         <p>
-          I&rsquo;m Tucker — engineer, product owner, U.S. veteran, and dad.
-          I founded clckd media to do the kind of focused, senior work I
-          wanted to be doing every day: helping founders and product teams
-          turn ideas into shipped software.
+          I&rsquo;m Tucker — founder of clckd media, U.S. veteran, and dad.
         </p>
-        <p className="mt-4">
-          Full bio coming soon.
+        <p>
+          clckd media is the studio I built to do one thing well: help small
+          businesses get the tools they need to actually run. The core stack
+          is GoHighLevel — CRM, funnels, automations, websites — and now,
+          increasingly, custom AI agents built with Claude.
+        </p>
+        <p>
+          The full story (and a real timeline) lands in Stage 3 of this
+          rebuild.
         </p>
       </div>
     </Section>

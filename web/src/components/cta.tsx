@@ -15,12 +15,12 @@ export function CTA() {
               Let&rsquo;s build
             </p>
             <h2 className="mt-4 font-display text-display-xl text-ink">
-              You bring the problem.<br />I&rsquo;ll bring the team.
+              You know what&rsquo;s broken.<br />I know what to build.
             </h2>
             <p className="mt-6 text-lg text-ink-muted">
-              I take on a small number of projects each quarter through clckd
-              media. If you&rsquo;ve got something worth building, let&rsquo;s
-              talk.
+              Whether it&rsquo;s a GoHighLevel buildout, a Claude-powered
+              tool, or both stitched together — tell me about it. Free
+              30-minute call to figure out if we&rsquo;re a fit.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
